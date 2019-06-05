@@ -5,7 +5,7 @@ def my_collect(collection)
   yield(collection[1])
       i += 1 
   end
-   new_collection = [].push()
+   new_collection = [].push(yield(collection[1]))
   
     new_collection
 end
