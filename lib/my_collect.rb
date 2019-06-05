@@ -6,7 +6,8 @@ def my_collect(collection)
   while i < collection.length 
   (collection[i])
       i += 1 
-   new_collection.push(yield(collection[i]))
+   new_collection.push
+   yield(collection[i])
   end 
   new_collection
 end
