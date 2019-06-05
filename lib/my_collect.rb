@@ -1,3 +1,5 @@
+
+
 def my_collect(collection)
   i = 0 
   
@@ -7,5 +9,3 @@ def my_collect(collection)
    new_collection.push(yield(collection[1]))
   end 
 end
-
-
