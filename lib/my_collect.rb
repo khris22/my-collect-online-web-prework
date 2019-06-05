@@ -5,7 +5,7 @@ def my_collect(collection)
         name.split(" ").first
       my_collect(collection) do |lang|
         lang.upcase
-  end
+  
   while i < collection.length 
   yield(collection[1])
       i += 1 
